@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+}
+
+.menu ul, .menu ol {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a, a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.wrap {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 1300px;
+    height: 66px;
+    border-bottom: 2px solid #C4C4C4;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 30px;
+}
+
+.menu-left, .menu-right {
+    width: 650px;
+    height: 66px;
+}
+
+.menu-left a:hover {
+    font-weight: 700;
+}
+
+.menu-right a {
+    font-size: 18px;
+    color: silver;
+    transition: 300ms;
+}
+
+.menu-right a:hover {
+    font-size: 18px;
+    color: #30ABAE;
+}
+
+.places-box {
+    margin-top: 70px;
+}
+
+.places-box h1 {
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.places {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.place-card {
+    width: 342px;
+}
+
+.places-list {
+    width: 342px;
+}
+
+.places-list h3 {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.places-list ul, .places-list ol {
+    list-style: none;
+}
+
+.places-list li {
+    margin-bottom: 10px;
+}
+
+.places-list a {
+    color: #414141;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    display: block;
+    padding-left: 10px;
+    transition: 300ms;
+}
+
+.places-list a:hover {
+    background: #E4E4E4;
+    color: #414141;
+    border: 1px solid #63C0C2;
+    border-radius: 10px;
+}
+
+.select-all {
+    margin-bottom: 30px;
+}
+
+.select-all a {
+    margin-left: 35px;
+    color: #30ABAE;
+    font-weight: bold;
+    border: none;
+}
+
+.select-all a:hover {
+    margin-left: 35px;
+    color: #30ABAE;
+    font-weight: bold;
+    border: none;
+    background: none;
+}
+
+.place-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.place-card h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.place-card span {
+    margin-right: 10px;
+}
+
+.place-card p {
+    padding-top: 30px;
+    border-top: 2px solid #ED8651;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.txt-silver {
+    color: silver;
+    font-size: 12px;
+    text-align: center;
+}
+
+.txt-silver-symbols {
+    color: silver;
+    font-size: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.read-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.square {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin: 155px 700px auto 0;
+    background: black;
+    opacity: 5%;
+}
+
+.pagination-horizontal {
+    background: #F2F5F1;
+    width: 1300px;
+    height: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination li {
+    border: #C4C4C4;
+    background: #F2F5F1;
+}
+
+.pagination a {
+    color: #AAAAAA;
+    font-size: 18px;
+    background: none;
+    border: none;
+    transition: 300ms;
+}
+
+.pagination a:hover {
+    color: #AAAAAA;
+    font-weight: bold;
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+
+.link-color a, .link-color a:hover {
+    color: #30ABAE;    
+}
+
+.footer {
+    background: #16595A;
+    width: 1300px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
